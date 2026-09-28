@@ -23,6 +23,11 @@ The ChEMBL scale experiment does not use ChEMBL activity labels. It measures
 score avoidance, retrieval overlap, execution time, memory, and index
 amortization rather than biological validation.
 
+The 10 target scorers are a prespecified executable-protocol panel fixed before
+the ChEMBL evaluation. Every scorer is retained at every nested prefix and
+execution seed; no target is selected or excluded using ChEMBL overlap, score
+avoidance, runtime, or memory.
+
 ## Installation
 
 ```bash
@@ -86,4 +91,3 @@ Manuscript-facing CSV files are under `tables/jbd/`. Large raw datasets,
 processed feature matrices, model environments, and external checkpoints are
 excluded. Dataset and checkpoint use remains subject to each provider's
 original terms.
-

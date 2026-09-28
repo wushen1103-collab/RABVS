@@ -88,6 +88,7 @@ chembl36_scaling:
   svd_landmark_size: 100000
   execution_seeds: [0, 1, 2]
   scorer_targets: [aa2ar, abl1, bace1, braf, cdk2, egfr, esr1, akt1, kit, pparg]
+  target_panel_rule: Prespecified executable-protocol list fixed before ChEMBL evaluation; every scorer retained at every prefix and seed; no outcome-based selection
   selected_partition_fraction: 0.10
   reservoir_per_partition: 16
   top_k: 1000
