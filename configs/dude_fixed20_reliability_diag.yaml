@@ -1,0 +1,47 @@
+run_name: dude_fixed20_reliability_diag
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_fixed20_reliability_diag
+table_dir: tables/dude_fixed20_reliability_diag
+targets:
+  - aa2ar
+  - abl1
+  - ace
+  - aces
+  - ada
+  - akt1
+  - akt2
+  - aldr
+  - ampc
+  - andr
+  - aofb
+  - bace1
+  - braf
+  - cah2
+  - casp3
+  - cdk2
+  - comt
+  - cp2c9
+  - cp3a4
+  - csf1r
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+  - 100
+  - 500
+  - 1000
+seeds:
+  - 0
+  - 1
+  - 2
+methods:
+  - greedy_surrogate
+  - boba_ucb
+  - boba_risk_final
+  - rabvs_hit
+  - rabvs_reliable_q90
+  - rabvs_reliable
+n_jobs: 20

@@ -1,0 +1,28 @@
+run_name: dude_true_boba_diag_failures_parts6
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_true_boba_diag_failures_parts6
+targets:
+- aofb
+- ada
+- cp2c9
+max_decoys: 50000
+n_partitions: 32
+n_components: 96
+initial_labeled: 256
+rounds: 4
+query_per_round: 128
+final_k:
+- 100
+- 500
+- 1000
+seeds:
+- 1
+reported_method: true_boba_risk_ranked
+final_ranking_method: rabvs_budgeted_reliable_no_density
+ensemble_size: 5
+selected_partitions: 6
+ucb_coefficient: 1.0
+reservoir_fraction: 0.0
+candidate_multiplier: 0
+reservoir_refresh: none
+n_jobs: 3

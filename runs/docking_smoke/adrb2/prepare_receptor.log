@@ -1,0 +1,18 @@
+matched with excess inter-residue bond(s): :75
+matched with excess inter-residue bond(s): :153
+matched with excess inter-residue bond(s): :159
+matched with excess inter-residue bond(s): :160
+Traceback (most recent call last):
+  File "/home/test/kkkk/25RABVS/.conda/bin/mk_prepare_receptor.py", line 6, in <module>
+    sys.exit(main())
+  File "/home/test/kkkk/25RABVS/.conda/lib/python3.10/site-packages/meeko/cli/mk_prepare_receptor.py", line 628, in main
+    polymer = Polymer.from_pdb_string(
+  File "/home/test/kkkk/25RABVS/.conda/lib/python3.10/site-packages/meeko/polymer.py", line 1139, in from_pdb_string
+    polymer = cls(
+  File "/home/test/kkkk/25RABVS/.conda/lib/python3.10/site-packages/meeko/polymer.py", line 931, in __init__
+    padded_mols = self._build_padded_mols(self.monomers, bonds, padders)
+  File "/home/test/kkkk/25RABVS/.conda/lib/python3.10/site-packages/meeko/polymer.py", line 1801, in _build_padded_mols
+    raise RuntimeError(err_msg)
+RuntimeError: Expected 2 paddings for (:75, :160) with bonds [(9, 9)], but got 0
+Expected 2 paddings for (:153, :159) with bonds [(9, 9)], but got 0
+

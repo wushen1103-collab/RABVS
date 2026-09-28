@@ -1,0 +1,9 @@
+target,method,n_candidates,n_docked_ok,active_rate,risk_alert_rate,mean_mu,mean_vina_score,median_vina_score,best_vina_score
+aa2ar,boba_ucb,10,10,1.0,0.1,0.9999998182148667,-9.6505,-9.454,-10.667
+aa2ar,rabvs_budgeted_reliable,10,10,1.0,0.0,0.9999998013966114,-9.711699999999999,-9.593,-10.667
+aa2ar,rabvs_budgeted_reliable_no_density,10,10,1.0,0.0,0.9999998013966114,-9.711699999999999,-9.593,-10.667
+aa2ar,rabvs_budgeted_reliable_q90,10,10,1.0,0.0,0.9999998013966114,-9.711699999999999,-9.593,-10.667
+adrb2,boba_ucb,10,10,1.0,1.0,0.9999994423852984,-8.9757,-9.068999999999999,-10.726
+adrb2,rabvs_budgeted_reliable,10,10,1.0,0.0,0.9995328656580386,-9.320199999999998,-9.6045,-10.642
+adrb2,rabvs_budgeted_reliable_no_density,10,10,1.0,0.0,0.9995328656580386,-9.320199999999998,-9.6045,-10.642
+adrb2,rabvs_budgeted_reliable_q90,10,10,1.0,0.0,0.9995328656580386,-9.320199999999998,-9.6045,-10.642

@@ -1,0 +1,9 @@
+target,method,baseline,n_unique_candidates,overlap_with_baseline,overlap_rate
+aa2ar,boba_ucb,boba_ucb,25,25,1.0
+aa2ar,rabvs_budgeted_reliable,boba_ucb,25,23,0.92
+aa2ar,rabvs_budgeted_reliable_no_density,boba_ucb,25,23,0.92
+aa2ar,rabvs_budgeted_reliable_q90,boba_ucb,25,23,0.92
+adrb2,boba_ucb,boba_ucb,25,25,1.0
+adrb2,rabvs_budgeted_reliable,boba_ucb,25,0,0.0
+adrb2,rabvs_budgeted_reliable_no_density,boba_ucb,25,0,0.0
+adrb2,rabvs_budgeted_reliable_q90,boba_ucb,25,0,0.0

@@ -1,0 +1,25 @@
+run_name: exact_metrics_lit_smoke
+data_root: data/raw/lit_pcba/AVE_unbiased
+output_dir: runs/exact_metrics_lit_smoke
+table_dir: tables/exact_metrics_lit_smoke
+targets:
+- MAPK1
+- VDR
+split: V
+max_inactives: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+- 100
+- 500
+- 1000
+seeds:
+- 0
+methods:
+- boba_ucb
+- rabvs_budgeted_reliable
+ensemble_size: 5
+n_jobs: 2

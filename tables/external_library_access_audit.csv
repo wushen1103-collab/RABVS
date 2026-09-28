@@ -1,0 +1,4 @@
+dataset,homepage,requested_count,create_status,create_content_type,task,result_status,result_lines,local_file,note
+zinc22_lead_like,https://cartblanche22.docking.org/search/random,20,200,application/json,d7cd553d-3c45-4759-aeb5-0d800b2669e9,pending_or_timeout_attempt_4_http_0,0,,The read operation timed out
+enamine_real_database,https://enamine.net/compound-collections/real-compounds/real-database,,200,text/html; charset=utf-8,,page_accessible,0,,page mentions SMILES/SDF and subset downloads; direct fixed snapshot download requires site/store access
+enamine_real_database_subsets,https://enamine.net/compound-collections/real-compounds/real-database-subsets,,200,text/html; charset=utf-8,,page_accessible,0,,page mentions SMILES/SDF and subset downloads; direct fixed snapshot download requires site/store access

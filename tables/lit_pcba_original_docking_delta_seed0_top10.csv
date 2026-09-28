@@ -1,0 +1,13 @@
+target,method,baseline,n_candidates,n_docked_ok,delta_active_rate,delta_risk_alert_rate,delta_mean_vina_score,delta_median_vina_score,delta_best_vina_score
+ADRB2,boba_ucb,boba_ucb,10,10,0.0,0.0,0.0,0.0,0.0
+ADRB2,rabvs_budgeted_reliable,boba_ucb,10,10,-0.09999999999999998,0.0,-0.1855999999999991,0.0,0.0
+ESR1_ago,boba_ucb,boba_ucb,10,10,0.0,0.0,0.0,0.0,0.0
+ESR1_ago,rabvs_budgeted_reliable,boba_ucb,10,10,-0.09999999999999998,-0.39999999999999997,-1.0759999999999987,0.2240000000000002,0.0
+FEN1,boba_ucb,boba_ucb,10,10,0.0,0.0,0.0,0.0,0.0
+FEN1,rabvs_budgeted_reliable,boba_ucb,10,10,0.1,0.0,-0.034399999999999764,0.0,-0.3019999999999996
+MAPK1,boba_ucb,boba_ucb,10,10,0.0,0.0,0.0,0.0,0.0
+MAPK1,rabvs_budgeted_reliable,boba_ucb,10,10,0.0,-0.09999999999999998,-0.3393000000000006,-0.1684999999999981,-0.9670000000000005
+PKM2,boba_ucb,boba_ucb,10,10,0.0,0.0,0.0,0.0,0.0
+PKM2,rabvs_budgeted_reliable,boba_ucb,10,10,0.0,-0.2,-0.0702999999999987,-0.05550000000000033,-0.32200000000000006
+VDR,boba_ucb,boba_ucb,10,10,0.0,0.0,0.0,0.0,0.0
+VDR,rabvs_budgeted_reliable,boba_ucb,10,10,-0.10000000000000003,-0.39999999999999997,-0.16130000000000067,-0.1095000000000006,-0.6599999999999984

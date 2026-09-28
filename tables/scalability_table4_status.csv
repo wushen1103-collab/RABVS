@@ -1,0 +1,5 @@
+plan_item,status,evidence,note
+zinc22_lead_like,not_complete,tables/external_library_access_audit.csv,The read operation timed out
+enamine_real_database,page_accessible_direct_snapshot_not_available,tables/external_library_access_audit.csv,page mentions SMILES/SDF and subset downloads; direct fixed snapshot download requires site/store access
+enamine_real_database_subsets,page_accessible_direct_snapshot_not_available,tables/external_library_access_audit.csv,page mentions SMILES/SDF and subset downloads; direct fixed snapshot download requires site/store access
+DUD-E-derived large-pool scalability stress,complete_stress_only_not_external_snapshot,tables/large_pool_scalability_stress_summary.csv,largest_pool=1000000; inference_saved_ratio=0.929; online_speedup_excluding_partition=2.482; topk_overlap_with_full=0.926

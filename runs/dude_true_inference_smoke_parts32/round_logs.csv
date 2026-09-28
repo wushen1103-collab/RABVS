@@ -1,0 +1,5 @@
+seed,target,method,round,reservoir_inferences,candidate_inferences,cumulative_neural_inferences,queried_total,new_hits,cumulative_hits,selected_partition_count,new_selected_partitions,candidate_pool_size,candidate_set_size,candidate_active_rate_eval
+0,aa2ar,true_budgeted_reliable,1,1724,971,2695,384,71,79,32,32,4513,1024,0.0849609375
+0,aa2ar,true_budgeted_reliable,2,1724,969,5388,512,10,89,32,20,4244,1024,0.01171875
+0,aa2ar,true_budgeted_reliable,3,1724,979,8091,640,7,96,32,22,4215,1024,0.0068359375
+0,aa2ar,true_budgeted_reliable,4,1724,978,10793,768,1,97,32,26,3963,1024,0.0009765625

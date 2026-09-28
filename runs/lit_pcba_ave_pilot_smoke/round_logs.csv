@@ -1,0 +1,16 @@
+seed,target,method,round,pool_size,active_count,queried_total,new_hits,cumulative_hits,risk_alert_rate_queried
+0,MAPK1,greedy_surrogate,1,5077,77,384,2,10,0.22395833333333334
+0,MAPK1,greedy_surrogate,2,5077,77,512,0,10,0.208984375
+0,MAPK1,greedy_surrogate,3,5077,77,640,2,12,0.234375
+0,MAPK1,boba_ucb,1,5077,77,384,2,10,0.2109375
+0,MAPK1,boba_ucb,2,5077,77,512,1,11,0.189453125
+0,MAPK1,boba_ucb,3,5077,77,640,2,13,0.215625
+0,MAPK1,rabvs,1,5077,77,384,1,9,0.203125
+0,MAPK1,rabvs,2,5077,77,512,3,12,0.19921875
+0,MAPK1,rabvs,3,5077,77,640,3,15,0.1984375
+0,MAPK1,rabvs_mean_final,1,5077,77,384,1,9,0.203125
+0,MAPK1,rabvs_mean_final,2,5077,77,512,3,12,0.19921875
+0,MAPK1,rabvs_mean_final,3,5077,77,640,3,15,0.1984375
+0,MAPK1,rabvs_risk_constrained,1,5077,77,384,1,9,0.203125
+0,MAPK1,rabvs_risk_constrained,2,5077,77,512,3,12,0.19921875
+0,MAPK1,rabvs_risk_constrained,3,5077,77,640,3,15,0.1984375

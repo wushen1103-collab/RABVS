@@ -1,0 +1,28 @@
+run_name: dude_all102_low_budget_final_ablation
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_all102_low_budget_final_ablation
+table_dir: tables/dude_all102_low_budget_final_ablation
+target_file: configs/dude_all102_targets.txt
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 256
+rounds: 6
+query_per_round: 128
+final_k:
+  - 100
+  - 500
+  - 1000
+seeds:
+  - 0
+  - 1
+  - 2
+methods:
+  - boba_ucb
+  - rabvs_budgeted_reliable
+  - rabvs_budgeted_reliable_no_density
+  - rabvs_budgeted_reliable_no_alert
+  - rabvs_budgeted_reliable_no_novelty
+  - rabvs_budgeted_reliable_q50
+  - rabvs_budgeted_reliable_q90
+n_jobs: 60

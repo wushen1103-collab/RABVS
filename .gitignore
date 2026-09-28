@@ -1,0 +1,33 @@
+.conda/
+.venv/
+.venv_*/
+.hf_cache/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+logs/
+
+# Large raw archives and generated feature caches are not committed.
+data/raw/
+data/processed/
+external_src/
+*.sdf
+*.smi
+*.parquet
+*.h5
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.mmap
+*.pdbqt
+runs/docking_candidates*/ligands/
+runs/docking_candidates*/targets/
+runs/docking_*/ligands/
+runs/docking_*/targets/
+runs/docking_control_stable_b/
+runs/docking_smoke*/**/*.pdb
+runs/docking_smoke/**/*.pdbqt
+
+# Generated CSV summaries and manuscript tables remain version controlled.

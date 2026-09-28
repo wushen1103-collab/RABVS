@@ -1,0 +1,4 @@
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for boost::shared_ptr<RDKit::FilterHierarchyMatcher> already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for boost::shared_ptr<RDKit::FilterCatalogEntry> already registered; second conversion method ignored.
+True-inference DUD-E:   0%|          | 0/1 [00:00<?, ?it/s]True-inference DUD-E: 100%|██████████| 1/1 [01:05<00:00, 65.39s/it]True-inference DUD-E: 100%|██████████| 1/1 [01:05<00:00, 65.39s/it]
+runs/dude_true_inference_smoke_res10_candidates16

@@ -1,0 +1,17 @@
+seed,target,method,round,reservoir_inferences,candidate_inferences,cumulative_neural_inferences,queried_total,new_hits,cumulative_hits,selected_partition_count,new_selected_partitions,candidate_pool_size,candidate_set_size,candidate_active_rate_eval
+0,aa2ar,true_budgeted_reliable_no_density,1,3317,1786,5103,384,128,136,16,16,1994,1994,0.17402206619859578
+0,aa2ar,true_budgeted_reliable_no_density,2,3317,1838,10258,512,35,171,16,8,2234,2048,0.05029296875
+0,aa2ar,true_budgeted_reliable_no_density,3,3317,1845,15420,640,37,208,16,16,2260,2048,0.02001953125
+0,aa2ar,true_budgeted_reliable_no_density,4,3317,1834,20571,768,11,219,16,14,2045,2045,0.009290953545232274
+0,bace1,true_budgeted_reliable_no_density,1,1954,1017,2971,384,127,135,16,16,1137,1137,0.16182937554969218
+0,bace1,true_budgeted_reliable_no_density,2,1954,964,5889,512,12,147,16,13,1079,1079,0.011121408711770158
+0,bace1,true_budgeted_reliable_no_density,3,1954,1199,9042,640,12,159,16,12,1340,1340,0.011940298507462687
+0,bace1,true_budgeted_reliable_no_density,4,1954,1026,12022,768,15,174,16,13,1146,1146,0.013089005235602094
+0,cdk2,true_budgeted_reliable_no_density,1,2947,1799,4746,384,90,98,16,16,2006,2006,0.08873379860418744
+0,cdk2,true_budgeted_reliable_no_density,2,2947,1533,9226,512,28,126,16,16,1711,1711,0.027469316189362946
+0,cdk2,true_budgeted_reliable_no_density,3,2947,1300,13473,640,2,128,16,14,1450,1450,0.011724137931034483
+0,cdk2,true_budgeted_reliable_no_density,4,2947,1607,18027,768,23,151,16,16,1793,1793,0.020078081427774678
+0,egfr,true_budgeted_reliable_no_density,1,3667,1842,5509,384,128,136,16,16,2526,2048,0.17333984375
+0,egfr,true_budgeted_reliable_no_density,2,3667,1845,11021,512,37,173,16,8,2945,2048,0.0302734375
+0,egfr,true_budgeted_reliable_no_density,3,3667,1845,16533,640,11,184,16,15,2309,2048,0.00537109375
+0,egfr,true_budgeted_reliable_no_density,4,3667,1843,22043,768,2,186,16,16,2270,2048,0.001953125

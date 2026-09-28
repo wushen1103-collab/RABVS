@@ -1,0 +1,44 @@
+run_name: dude_method_search_fixed20_retrieval0p25_low_seed0
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_method_search_fixed20_retrieval0p25_low_seed0
+table_dir: tables/dude_method_search_fixed20_retrieval0p25_low_seed0
+targets:
+- aa2ar
+- abl1
+- ace
+- aces
+- ada
+- akt1
+- akt2
+- aldr
+- ampc
+- andr
+- aofb
+- bace1
+- braf
+- cah2
+- casp3
+- cdk2
+- comt
+- cp2c9
+- cp3a4
+- csf1r
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 256
+rounds: 6
+query_per_round: 128
+final_k:
+- 100
+- 500
+- 1000
+seeds:
+- 0
+methods:
+- greedy_surrogate
+- boba_ucb
+- rabvs_budgeted_reliable
+- rabvs_budgeted_no_ucb
+n_jobs: 20
+retrieval_blend: 0.25

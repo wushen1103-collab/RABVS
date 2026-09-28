@@ -1,0 +1,6 @@
+[RDKit] ERROR:[21:35:40] Explicit valence for atom # 9 C, 6, is greater than permitted
+Input molecules processed: 0, skipped: 1
+PDBQT files written: 0
+PDBQT files not written due to error: 0
+Input molecules with errors: 0
+No PDBQT files were written due to errors!

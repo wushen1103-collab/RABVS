@@ -1,0 +1,2 @@
+method_a,method_b,n_pairs,mean_overlap_rate_min_set,std_overlap_rate_min_set,mean_jaccard,std_jaccard,identical_set_pairs
+boba_ucb,rabvs_budgeted_reliable,18,0.7055555555555555,0.1696786659341787,0.5715534465534465,0.21618276241113224,2

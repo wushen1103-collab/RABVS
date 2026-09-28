@@ -1,0 +1,5 @@
+method,metric,preferred_direction,n_pairs,mean_delta,std_delta,median_delta,strictly_improved_pairs,tied_pairs,worsened_pairs,wilcoxon_p_nonzero,exact_sign_p_non_tied
+rabvs_budgeted_reliable,delta_active_rate,higher,18,-0.049999999999999996,0.08574929257125442,-0.04999999999999999,2,7,9,0.107421875,0.0654296875
+rabvs_budgeted_reliable,delta_risk_alert_rate,lower,18,-0.18333333333333335,0.16538724611187702,-0.15000000000000002,14,4,0,0.0009618222539686676,0.0001220703125
+rabvs_budgeted_reliable,delta_mean_vina_score,lower,18,-0.33466666666666606,0.5204069516197086,-0.17344999999999988,13,1,4,0.00933837890625,0.049041748046875
+rabvs_budgeted_reliable,delta_best_vina_score,lower,18,-0.2603333333333333,0.37005897781140723,0.0,8,9,1,0.0078125,0.0390625

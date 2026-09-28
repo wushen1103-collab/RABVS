@@ -1,0 +1,28 @@
+run_name: dude_missing_ablation_smoke_ensemble1
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_missing_ablation_smoke_ensemble1
+table_dir: tables/dude_missing_ablation_smoke_ensemble1
+targets:
+- aa2ar
+- adrb2
+- bace1
+- cdk2
+- egfr
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+- 100
+- 500
+- 1000
+seeds:
+- 0
+methods:
+- rabvs_budgeted_no_ucb
+ensemble_size: 1
+n_jobs: 5
+retrieval_round_blend: 0.0
+retrieval_final_blend: 0.5

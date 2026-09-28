@@ -1,0 +1,181 @@
+dataset,target,seed,allocation,acquisition_method,final_ranking,queried_total,queried_hits,Hit@1000,BEDROC_alpha20,Alert-free@1000,Scaffolds@1000
+LIT-PCBA,ADRB2,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,4,4,0.9999999999999013,0.481,895
+LIT-PCBA,ADRB2,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,4,4,0.9999999999999013,0.499,900
+LIT-PCBA,ADRB2,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,4,4,0.9999999999999013,0.482,890
+LIT-PCBA,ADRB2,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,4,4,0.9999999999999013,0.394,863
+LIT-PCBA,ADRB2,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,4,4,0.9996005915125424,0.46399999999999997,886
+LIT-PCBA,ADRB2,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,4,4,0.9999999999999013,0.492,908
+LIT-PCBA,ADRB2,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,4,4,0.9984061929187708,0.43899999999999995,876
+LIT-PCBA,ADRB2,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,4,4,0.9991022286624676,0.43999999999999995,901
+LIT-PCBA,ADRB2,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,4,4,0.9998001359576814,0.497,888
+LIT-PCBA,ADRB2,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,4,4,0.9999999999999013,0.498,890
+LIT-PCBA,ADRB2,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,4,4,0.9996004317299756,0.502,869
+LIT-PCBA,ADRB2,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,4,4,0.9996005915125424,0.499,869
+LIT-PCBA,ALDH1,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,227,496,0.6200485916073127,0.485,933
+LIT-PCBA,ALDH1,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,248,517,0.6340690830835733,0.45499999999999996,932
+LIT-PCBA,ALDH1,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,200,510,0.6272459520568543,0.49,919
+LIT-PCBA,ALDH1,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,166,475,0.5934298162398016,0.548,937
+LIT-PCBA,ALDH1,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,208,469,0.5928853608310741,0.5,940
+LIT-PCBA,ALDH1,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,213,472,0.5951698731168849,0.5369999999999999,920
+LIT-PCBA,ALDH1,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,208,509,0.6174454112853868,0.5369999999999999,937
+LIT-PCBA,ALDH1,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,187,478,0.594269047495256,0.626,963
+LIT-PCBA,ALDH1,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,240,492,0.6225585951292646,0.44299999999999995,937
+LIT-PCBA,ALDH1,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,263,516,0.639371016321163,0.41700000000000004,923
+LIT-PCBA,ALDH1,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,211,513,0.6340167025374012,0.398,910
+LIT-PCBA,ALDH1,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,179,477,0.6016856096117157,0.46399999999999997,915
+LIT-PCBA,ESR1_ago,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ago,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,911,3,3,1.0,0.4401756311745335,611
+LIT-PCBA,ESR1_ant,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,819,25,25,0.9924774644083024,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,819,25,25,0.9924774644083024,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,819,25,25,0.9924774644083024,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,819,25,25,0.9924774644083024,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,819,25,25,0.9964892677105361,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,819,25,25,0.9964892677105361,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,819,25,25,0.9964892677105361,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,819,25,25,0.9964892677105361,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,819,25,25,0.9897746289556164,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,819,25,25,0.9897746289556164,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,819,25,25,0.9897746289556164,0.4652014652014652,536
+LIT-PCBA,ESR1_ant,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,819,25,25,0.9897746289556164,0.4652014652014652,536
+LIT-PCBA,FEN1,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,41,82,0.8837532888197571,0.41700000000000004,805
+LIT-PCBA,FEN1,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,43,83,0.891777981140988,0.387,832
+LIT-PCBA,FEN1,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,27,80,0.8566276126646343,0.406,804
+LIT-PCBA,FEN1,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,31,81,0.87333456121735,0.42900000000000005,797
+LIT-PCBA,FEN1,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,44,79,0.8423081444045711,0.477,867
+LIT-PCBA,FEN1,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,44,77,0.8387424027319693,0.478,838
+LIT-PCBA,FEN1,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,39,76,0.8310021711262857,0.45399999999999996,831
+LIT-PCBA,FEN1,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,33,79,0.8414799753342732,0.469,871
+LIT-PCBA,FEN1,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,34,74,0.8031313750282034,0.40900000000000003,811
+LIT-PCBA,FEN1,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,38,75,0.8146130824277298,0.43300000000000005,822
+LIT-PCBA,FEN1,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,36,75,0.807010902349594,0.43700000000000006,831
+LIT-PCBA,FEN1,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,27,75,0.8033691478202566,0.516,849
+LIT-PCBA,GBA,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,18,34,0.7989191942167722,0.639,839
+LIT-PCBA,GBA,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,18,34,0.8035677421317086,0.603,852
+LIT-PCBA,GBA,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,17,34,0.7895152053548099,0.5509999999999999,837
+LIT-PCBA,GBA,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,17,34,0.8125297084994717,0.5720000000000001,834
+LIT-PCBA,GBA,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,22,37,0.8785092015486912,0.598,880
+LIT-PCBA,GBA,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,23,36,0.8675188852625026,0.642,874
+LIT-PCBA,GBA,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,19,35,0.857815542898488,0.609,883
+LIT-PCBA,GBA,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,20,36,0.8654462885490702,0.628,862
+LIT-PCBA,GBA,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,19,33,0.800084936594594,0.639,873
+LIT-PCBA,GBA,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,23,33,0.7939792863976585,0.641,890
+LIT-PCBA,GBA,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,23,34,0.817861616667657,0.612,867
+LIT-PCBA,GBA,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,20,33,0.7933139410671262,0.644,879
+LIT-PCBA,IDH1,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,9,9,0.9998669304229233,0.7130000000000001,917
+LIT-PCBA,IDH1,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,9,9,0.99977830602724,0.7170000000000001,915
+LIT-PCBA,IDH1,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,9,9,0.999955643476685,0.719,900
+LIT-PCBA,IDH1,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,9,9,0.9997341267562689,0.6910000000000001,916
+LIT-PCBA,IDH1,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,9,9,1.0,0.729,902
+LIT-PCBA,IDH1,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,9,9,1.0,0.726,898
+LIT-PCBA,IDH1,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,9,9,1.0,0.6659999999999999,896
+LIT-PCBA,IDH1,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,9,9,1.0,0.6759999999999999,895
+LIT-PCBA,IDH1,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,9,9,0.9995130525469833,0.739,898
+LIT-PCBA,IDH1,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,9,9,0.9996456440207617,0.758,896
+LIT-PCBA,IDH1,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,9,9,0.9992924199648493,0.732,888
+LIT-PCBA,IDH1,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,9,9,0.9992483463660147,0.756,905
+LIT-PCBA,KAT2A,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,18,41,0.8318872443073456,0.631,870
+LIT-PCBA,KAT2A,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,18,42,0.8453766853707502,0.5800000000000001,856
+LIT-PCBA,KAT2A,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,18,42,0.847468082008494,0.5640000000000001,867
+LIT-PCBA,KAT2A,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,17,41,0.8227633797193037,0.558,862
+LIT-PCBA,KAT2A,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,20,42,0.8423723229688393,0.52,839
+LIT-PCBA,KAT2A,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,19,42,0.839100026531493,0.525,848
+LIT-PCBA,KAT2A,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,21,43,0.8649371636607721,0.517,817
+LIT-PCBA,KAT2A,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,16,42,0.8382286001156951,0.5549999999999999,835
+LIT-PCBA,KAT2A,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,18,37,0.7456191033707724,0.605,907
+LIT-PCBA,KAT2A,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,20,38,0.7699398804555303,0.575,906
+LIT-PCBA,KAT2A,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,19,38,0.7736419549698996,0.626,902
+LIT-PCBA,KAT2A,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,18,37,0.745918729873465,0.623,915
+LIT-PCBA,MAPK1,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,32,73,0.8283632346734334,0.748,904
+LIT-PCBA,MAPK1,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,39,74,0.848207238780046,0.756,886
+LIT-PCBA,MAPK1,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,35,73,0.8334477227364929,0.74,872
+LIT-PCBA,MAPK1,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,30,74,0.8332624779563993,0.722,883
+LIT-PCBA,MAPK1,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,38,73,0.8423315709138153,0.789,842
+LIT-PCBA,MAPK1,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,33,73,0.821526427336636,0.718,829
+LIT-PCBA,MAPK1,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,26,72,0.8085020604068227,0.762,828
+LIT-PCBA,MAPK1,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,36,74,0.8540782668915528,0.759,814
+LIT-PCBA,MAPK1,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,36,72,0.8402114837689341,0.8200000000000001,858
+LIT-PCBA,MAPK1,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,36,72,0.8337235631035798,0.8180000000000001,869
+LIT-PCBA,MAPK1,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,34,72,0.8363276564545248,0.83,857
+LIT-PCBA,MAPK1,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,36,71,0.8297948105203493,0.794,872
+LIT-PCBA,MTORC1,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,20,23,0.8992682587767082,0.8180000000000001,737
+LIT-PCBA,MTORC1,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,21,23,0.9108516965944855,0.825,725
+LIT-PCBA,MTORC1,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,19,23,0.8867989244524298,0.831,726
+LIT-PCBA,MTORC1,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,19,23,0.8855900664919768,0.8049999999999999,705
+LIT-PCBA,MTORC1,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,19,23,0.8677354021387739,0.806,752
+LIT-PCBA,MTORC1,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,18,23,0.8525543756778875,0.8140000000000001,749
+LIT-PCBA,MTORC1,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,20,24,0.9165135668529119,0.804,715
+LIT-PCBA,MTORC1,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,22,24,0.9554715202644997,0.823,746
+LIT-PCBA,MTORC1,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,20,24,0.9131368312024668,0.819,765
+LIT-PCBA,MTORC1,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,21,24,0.9295332051058205,0.7989999999999999,746
+LIT-PCBA,MTORC1,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,19,24,0.9070585683541327,0.8200000000000001,734
+LIT-PCBA,MTORC1,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,19,24,0.9021323363599347,0.806,724
+LIT-PCBA,OPRK1,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.624,891
+LIT-PCBA,OPRK1,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.608,902
+LIT-PCBA,OPRK1,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.69,893
+LIT-PCBA,OPRK1,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.702,894
+LIT-PCBA,OPRK1,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.631,879
+LIT-PCBA,OPRK1,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.629,878
+LIT-PCBA,OPRK1,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.706,876
+LIT-PCBA,OPRK1,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.6699999999999999,874
+LIT-PCBA,OPRK1,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.631,901
+LIT-PCBA,OPRK1,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.631,897
+LIT-PCBA,OPRK1,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.6839999999999999,905
+LIT-PCBA,OPRK1,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,6,6,0.9999999999998511,0.6930000000000001,908
+LIT-PCBA,PKM2,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,30,111,0.7656906940869913,0.648,833
+LIT-PCBA,PKM2,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,31,110,0.7594484522468337,0.722,845
+LIT-PCBA,PKM2,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,31,113,0.7701943267508753,0.642,877
+LIT-PCBA,PKM2,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,25,112,0.7567467282893121,0.657,856
+LIT-PCBA,PKM2,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,33,113,0.7724154030305932,0.593,908
+LIT-PCBA,PKM2,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,35,112,0.7649433550846672,0.5760000000000001,926
+LIT-PCBA,PKM2,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,28,112,0.7598205752637935,0.626,917
+LIT-PCBA,PKM2,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,30,113,0.7688282771391306,0.5429999999999999,888
+LIT-PCBA,PKM2,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,33,113,0.7740885816130195,0.659,870
+LIT-PCBA,PKM2,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,32,112,0.759728911622636,0.746,875
+LIT-PCBA,PKM2,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,27,111,0.7575894818241729,0.731,867
+LIT-PCBA,PKM2,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,26,111,0.7553154004415262,0.669,856
+LIT-PCBA,PPARG,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,PPARG,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,867,6,6,1.0,0.4429065743944637,541
+LIT-PCBA,TP53,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,811,16,16,1.0,0.4636251541307028,512
+LIT-PCBA,TP53,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,811,16,16,1.0,0.4636251541307028,512
+LIT-PCBA,TP53,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,811,16,16,1.0,0.4636251541307028,512
+LIT-PCBA,TP53,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,811,16,16,1.0,0.4636251541307028,512
+LIT-PCBA,TP53,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,TP53,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,811,16,16,0.9987427641911097,0.4636251541307028,512
+LIT-PCBA,VDR,0,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,33,119,0.6776062563997052,0.56,875
+LIT-PCBA,VDR,0,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,32,121,0.6917892962582585,0.569,860
+LIT-PCBA,VDR,0,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,29,123,0.7058797613939627,0.5680000000000001,859
+LIT-PCBA,VDR,0,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,27,122,0.6909076860239837,0.5660000000000001,880
+LIT-PCBA,VDR,1,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,25,125,0.7140735461880943,0.492,804
+LIT-PCBA,VDR,1,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,31,124,0.6986817549532419,0.401,832
+LIT-PCBA,VDR,1,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,26,124,0.7069447454015985,0.41400000000000003,819
+LIT-PCBA,VDR,1,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,28,124,0.6975973256269175,0.43600000000000005,837
+LIT-PCBA,VDR,2,RABVS allocation,rabvs_budgeted_no_ucb_pareto_rrf_no_conf,Same activity/cleanliness/novelty RRF,2560,35,130,0.7474537496613857,0.521,867
+LIT-PCBA,VDR,2,Mean-score greedy allocation,greedy_surrogate,Same activity/cleanliness/novelty RRF,2560,35,130,0.7489177684420306,0.504,852
+LIT-PCBA,VDR,2,BOBa-UCB allocation,boba_ucb,Same activity/cleanliness/novelty RRF,2560,32,128,0.7334181297346271,0.5429999999999999,853
+LIT-PCBA,VDR,2,Random partition allocation,rabvs_budgeted_random_parts,Same activity/cleanliness/novelty RRF,2560,38,127,0.7216590734104114,0.5349999999999999,852

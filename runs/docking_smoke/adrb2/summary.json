@@ -1,0 +1,14 @@
+{
+  "target": "adrb2",
+  "center_x": 2.25461875,
+  "center_y": 5.022549999999998,
+  "center_z": 51.82674375,
+  "size_x": 14.7689,
+  "size_y": 18.3928,
+  "size_z": 16.645400000000002,
+  "best_vina_score": -8.634,
+  "n_poses": 5,
+  "exhaustiveness": 8,
+  "ligand_source": "crystal_ligand",
+  "receptor_deleted_residues": ":75,:160,:153,:159"
+}

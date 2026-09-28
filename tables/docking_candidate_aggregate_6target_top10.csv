@@ -1,0 +1,4 @@
+method,n_targets,mean_delta_active_rate,mean_delta_risk_alert_rate,mean_delta_mean_vina_score,median_delta_mean_vina_score,mean_delta_best_vina_score
+rabvs_budgeted_reliable,6,0.0,-0.3166666666666667,0.06319999999999985,0.000700000000000145,-0.006666666666666525
+rabvs_budgeted_reliable_no_density,6,0.0,-0.3166666666666667,0.06319999999999985,0.000700000000000145,-0.006666666666666525
+rabvs_budgeted_reliable_q90,6,0.0,-0.3166666666666667,0.06319999999999985,0.000700000000000145,-0.006666666666666525

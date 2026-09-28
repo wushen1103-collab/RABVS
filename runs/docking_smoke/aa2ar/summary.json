@@ -1,0 +1,14 @@
+{
+  "target": "aa2ar",
+  "center_x": -9.1911925,
+  "center_y": -7.160335000000002,
+  "center_z": 56.03158249999999,
+  "size_x": 15.3555,
+  "size_y": 14.2552,
+  "size_z": 22.928599999999996,
+  "best_vina_score": -7.944,
+  "n_poses": 5,
+  "exhaustiveness": 8,
+  "ligand_source": "active0_sdf_fallback",
+  "receptor_deleted_residues": ""
+}

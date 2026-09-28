@@ -1,0 +1,26 @@
+run_name: lit_pcba_ave_pilot_smoke
+data_root: data/raw/lit_pcba/AVE_unbiased
+output_dir: runs/lit_pcba_ave_pilot_smoke
+table_dir: tables/lit_pcba_ave_pilot_smoke
+targets:
+  - MAPK1
+split: V
+max_inactives: 5000
+n_partitions: 64
+n_components: 48
+initial_labeled: 256
+rounds: 3
+query_per_round: 128
+final_k:
+  - 100
+  - 500
+  - 1000
+seeds:
+  - 0
+methods:
+  - greedy_surrogate
+  - boba_ucb
+  - rabvs
+  - rabvs_mean_final
+  - rabvs_risk_constrained
+n_jobs: 4

@@ -1,0 +1,4 @@
+method,metric,n_targets,mean_delta,median_delta,strictly_improved_targets,improved_or_nonworse_targets,wilcoxon_p_nonzero,sign_test_p
+rabvs_budgeted_reliable,delta_risk_alert_rate,6,-0.19999999999999996,-0.19999999999999996,5,6,0.0625,0.03125
+rabvs_budgeted_reliable,delta_mean_vina_score,6,-0.3615999999999994,-0.18764999999999965,4,4,0.3125,0.6875
+rabvs_budgeted_reliable,delta_best_vina_score,6,-0.1608333333333333,0.0,2,6,0.5,0.03125

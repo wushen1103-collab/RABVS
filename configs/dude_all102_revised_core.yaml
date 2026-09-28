@@ -1,0 +1,26 @@
+run_name: dude_all102_revised_core
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_all102_revised_core
+table_dir: tables/dude_all102_revised_core
+target_file: configs/dude_all102_targets.txt
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+  - 100
+  - 500
+  - 1000
+seeds:
+  - 0
+  - 1
+  - 2
+methods:
+  - greedy_surrogate
+  - boba_ucb
+  - rabvs_budgeted_reliable
+  - rabvs_budgeted_no_ucb
+  - rabvs_budgeted_random_parts
+n_jobs: 60

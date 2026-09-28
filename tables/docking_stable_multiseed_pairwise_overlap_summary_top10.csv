@@ -1,0 +1,7 @@
+method_a,method_b,n_pairs,mean_overlap_rate_min_set,std_overlap_rate_min_set,mean_jaccard,std_jaccard,identical_set_pairs
+boba_ucb,rabvs_budgeted_reliable,18,0.6222222222222222,0.37503812442369355,0.5471816672797065,0.37773257707453073,4
+boba_ucb,rabvs_budgeted_reliable_no_density,18,0.6222222222222222,0.37503812442369355,0.5471816672797065,0.37773257707453073,4
+boba_ucb,rabvs_budgeted_reliable_q90,18,0.6222222222222222,0.37503812442369355,0.5471816672797065,0.37773257707453073,4
+rabvs_budgeted_reliable,rabvs_budgeted_reliable_no_density,18,1.0,0.0,1.0,0.0,18
+rabvs_budgeted_reliable,rabvs_budgeted_reliable_q90,18,1.0,0.0,1.0,0.0,18
+rabvs_budgeted_reliable_no_density,rabvs_budgeted_reliable_q90,18,1.0,0.0,1.0,0.0,18

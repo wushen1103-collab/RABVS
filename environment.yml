@@ -1,0 +1,31 @@
+name: rabvs25
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24,<2
+  - pandas>=2.0
+  - scipy>=1.10
+  - scikit-learn>=1.3
+  - pyarrow>=14
+  - pyyaml>=6
+  - tqdm>=4.66
+  - joblib>=1.3
+  - rdkit
+  - faiss-cpu
+  - lightgbm
+  - pytorch
+  - pytorch-cuda=12.1
+  - openbabel
+  - pip:
+      - chemprop
+      - fair-esm
+      - vina
+      - meeko
+      - gemmi
+      - prody
+      - biopython
+      - torch-geometric

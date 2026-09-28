@@ -1,0 +1,24 @@
+run_name: dude_method_search_all102_finalretrieval0p25_std_seed0
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_method_search_all102_finalretrieval0p25_std_seed0
+table_dir: tables/dude_method_search_all102_finalretrieval0p25_std_seed0
+target_file: configs/dude_all102_targets.txt
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+- 100
+- 500
+- 1000
+seeds:
+- 0
+methods:
+- boba_ucb
+- rabvs_budgeted_reliable
+- rabvs_budgeted_no_ucb
+n_jobs: 20
+retrieval_round_blend: 0.0
+retrieval_final_blend: 0.25

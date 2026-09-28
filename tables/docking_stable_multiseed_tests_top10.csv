@@ -1,0 +1,13 @@
+method,metric,preferred_direction,n_pairs,mean_delta,std_delta,median_delta,strictly_improved_pairs,tied_pairs,worsened_pairs,wilcoxon_p_nonzero,exact_sign_p_non_tied
+rabvs_budgeted_reliable,delta_active_rate,higher,18,0.0,0.0,0.0,0,18,0,,
+rabvs_budgeted_reliable,delta_risk_alert_rate,lower,18,-0.37777777777777777,0.37503812442369355,-0.2,14,4,0,0.000945134623506972,0.0001220703125
+rabvs_budgeted_reliable,delta_mean_vina_score,lower,18,0.023122222222222315,0.26531093313663123,0.0,8,4,6,0.9515380859375,0.79052734375
+rabvs_budgeted_reliable,delta_best_vina_score,lower,18,0.06622222222222224,0.2697961224932974,0.0,3,10,5,0.546875,0.7265625
+rabvs_budgeted_reliable_no_density,delta_active_rate,higher,18,0.0,0.0,0.0,0,18,0,,
+rabvs_budgeted_reliable_no_density,delta_risk_alert_rate,lower,18,-0.37777777777777777,0.37503812442369355,-0.2,14,4,0,0.000945134623506972,0.0001220703125
+rabvs_budgeted_reliable_no_density,delta_mean_vina_score,lower,18,0.023122222222222315,0.26531093313663123,0.0,8,4,6,0.9515380859375,0.79052734375
+rabvs_budgeted_reliable_no_density,delta_best_vina_score,lower,18,0.06622222222222224,0.2697961224932974,0.0,3,10,5,0.546875,0.7265625
+rabvs_budgeted_reliable_q90,delta_active_rate,higher,18,0.0,0.0,0.0,0,18,0,,
+rabvs_budgeted_reliable_q90,delta_risk_alert_rate,lower,18,-0.37777777777777777,0.37503812442369355,-0.2,14,4,0,0.000945134623506972,0.0001220703125
+rabvs_budgeted_reliable_q90,delta_mean_vina_score,lower,18,0.023122222222222315,0.26531093313663123,0.0,8,4,6,0.9515380859375,0.79052734375
+rabvs_budgeted_reliable_q90,delta_best_vina_score,lower,18,0.06622222222222224,0.2697961224932974,0.0,3,10,5,0.546875,0.7265625

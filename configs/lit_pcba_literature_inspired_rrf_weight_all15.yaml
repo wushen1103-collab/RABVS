@@ -1,0 +1,46 @@
+run_name: lit_pcba_literature_inspired_rrf_weight_all15
+data_root: data/raw/lit_pcba/AVE_unbiased
+output_dir: runs/lit_pcba_literature_inspired_rrf_weight_all15
+table_dir: tables/lit_pcba_literature_inspired_rrf_weight_all15
+targets:
+  - ADRB2
+  - ALDH1
+  - ESR1_ago
+  - ESR1_ant
+  - FEN1
+  - GBA
+  - IDH1
+  - KAT2A
+  - MAPK1
+  - MTORC1
+  - OPRK1
+  - PKM2
+  - PPARG
+  - TP53
+  - VDR
+split: V
+max_inactives: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+  - 100
+  - 500
+  - 1000
+seeds:
+  - 0
+  - 1
+  - 2
+methods:
+  - boba_ucb
+  - greedy_surrogate
+  - rabvs_budgeted_no_ucb
+  - rabvs_budgeted_no_ucb_pareto_rrf
+  - rabvs_budgeted_no_ucb_pareto_rrf_novel
+  - rabvs_budgeted_no_ucb_pareto_rrf_balanced
+ensemble_size: 5
+n_jobs: 45
+retrieval_round_blend: 0.0
+retrieval_final_blend: 0.5

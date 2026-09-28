@@ -1,0 +1,30 @@
+datasets:
+  chembl36:
+    homepage: https://www.ebi.ac.uk/chembl/
+    preferred_source: official
+    mirror_note: Use local institutional mirror if available; no verified China mirror is fixed here.
+  bindingdb:
+    homepage: https://www.bindingdb.org/
+    preferred_source: official
+    mirror_note: Use official export links; verify license before redistribution.
+  excape_db_v2:
+    homepage: https://zenodo.org/records/2543724
+    preferred_source: zenodo
+    mirror_note: Zenodo links are authoritative; cache with aria2c when network allows.
+  lit_pcba:
+    homepage: https://drugdesign.unistra.fr/LIT-PCBA/
+    preferred_source: official
+    mirror_note: Download target archives individually and record checksums.
+  dud_e:
+    homepage: https://dude.docking.org/
+    preferred_source: official
+    mirror_note: Download target archives individually and record checksums.
+  zinc22:
+    homepage: https://cartblanche.docking.org/
+    preferred_source: official
+    mirror_note: Use fixed lead-like subset query and record query metadata.
+  enamine_real:
+    homepage: https://enamine.net/compound-collections/real-compounds/real-space-navigator
+    preferred_source: official
+    mirror_note: Use fixed subset snapshot and record license constraints.
+

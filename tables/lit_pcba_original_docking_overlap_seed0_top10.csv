@@ -1,0 +1,13 @@
+target,method,baseline,n_unique_candidates,overlap_with_baseline,overlap_rate
+ADRB2,boba_ucb,boba_ucb,10,10,1.0
+ADRB2,rabvs_budgeted_reliable,boba_ucb,10,7,0.7
+ESR1_ago,boba_ucb,boba_ucb,10,10,1.0
+ESR1_ago,rabvs_budgeted_reliable,boba_ucb,10,6,0.6
+FEN1,boba_ucb,boba_ucb,10,10,1.0
+FEN1,rabvs_budgeted_reliable,boba_ucb,10,6,0.6
+MAPK1,boba_ucb,boba_ucb,10,10,1.0
+MAPK1,rabvs_budgeted_reliable,boba_ucb,10,7,0.7
+PKM2,boba_ucb,boba_ucb,10,10,1.0
+PKM2,rabvs_budgeted_reliable,boba_ucb,10,8,0.8
+VDR,boba_ucb,boba_ucb,10,10,1.0
+VDR,rabvs_budgeted_reliable,boba_ucb,10,6,0.6

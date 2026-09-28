@@ -1,0 +1,10 @@
+No template matched for residue_key='A:360'
+tried 3 templates for residue_key='A:360'excess_H_ok=False
+SER        heavy_miss=1 heavy_excess=0 H_excess=[] bond_miss={0} bond_excess=set()
+NSER       heavy_miss=1 heavy_excess=0 H_excess=[] bond_miss={0} bond_excess={4}
+CSER       heavy_miss=2 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+
+- Template matching failed for: ['A:360'] Ignored due to allow_bad_res.
+
+Files written:
+runs/lit_pcba_original_docking_seed1_top10/targets/MAPK1/receptor.pdbqt <-- static (i.e., rigid) receptor input file

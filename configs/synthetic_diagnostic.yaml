@@ -1,0 +1,26 @@
+run_name: synthetic_diagnostic
+output_dir: runs/synthetic_diagnostic
+pool_size: 24000
+n_targets: 3
+n_partitions: 256
+n_features: 48
+n_scaffolds: 4096
+initial_labeled: 512
+rounds: 8
+query_per_round: 256
+final_k:
+  - 100
+  - 500
+  - 1000
+seeds:
+  - 0
+  - 1
+  - 2
+methods:
+  - greedy_surrogate
+  - boba_ucb
+  - rabvs
+  - rabvs_conf03
+  - rabvs_no_conf
+  - rabvs_mean_final
+n_jobs: 32

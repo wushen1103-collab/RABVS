@@ -1,0 +1,111 @@
+study: RABVS JBD submission
+method_expansion: Resource-Aware Budgeted Virtual Screening
+
+software:
+  python: 3.10.20
+  numpy: 1.26.4
+  pandas: 2.3.3
+  scipy: 1.15.3
+  scikit_learn: 1.7.2
+  rdkit: 2024.9.6
+  joblib: 1.5.3
+  pyyaml: 6.0.3
+
+matched_benchmarks:
+  datasets:
+    DUD-E: 102 targets
+    LIT-PCBA: 15 targets
+    MUV: 17 tasks
+  seeds: [0, 1, 2]
+  representation: Morgan radius 2, 2048 bits -> TruncatedSVD 96 dimensions
+  partitions: 256
+  initial_labelled: 512
+  rounds: 8
+  query_per_round: 256
+  final_rrf:
+    reciprocal_rank_constant: 60
+    activity_weight: 1.0
+    cleanliness_weight: 0.18
+    novelty_weight: 0.25
+
+same_rrf_allocation_control:
+  datasets:
+    DUD-E: 102 targets x 3 seeds
+    LIT-PCBA: 15 targets x 3 seeds
+  allocation_routes:
+    - RABVS allocation
+    - mean-score greedy allocation
+    - BOBa-UCB allocation
+    - random partition allocation
+  fixed_final_ranking: activity/cleanliness/novelty RRF
+  script: scripts/jbd_experiments/run_same_rrf_matched_protocol.py
+
+budget_sweep:
+  targets:
+    - aa2ar
+    - abl1
+    - ace
+    - aces
+    - ada
+    - akt1
+    - akt2
+    - aldr
+    - ampc
+    - andr
+    - aofb
+    - bace1
+    - braf
+    - cah2
+    - casp3
+    - cdk2
+    - comt
+    - cp2c9
+    - cp3a4
+    - csf1r
+  seeds: [0, 1, 2]
+  nominal_budget_fractions: [0.01, 0.025, 0.05, 0.10, 0.20, 0.50]
+  script: scripts/jbd_experiments/run_budget_quality_curve.py
+
+rrf_sensitivity:
+  dataset: LIT-PCBA all15
+  seeds: [0, 1, 2]
+  cleanliness_weights: [0.10, 0.15, 0.18, 0.20, 0.25]
+  novelty_weights: [0.15, 0.20, 0.25, 0.30, 0.35]
+  primary_point: [0.18, 0.25]
+  interpretation: prespecified interior operating point
+  script: scripts/jbd_experiments/run_rrf_weight_sensitivity.py
+
+chembl36_scaling:
+  source: ChEMBL 36 chemical representations
+  source_file: chembl_36_chemreps.txt.gz
+  source_sha256: f9c2fa730ac5000da9b0c0d4033c99bfd8fe2b99950f19df1d842c6e73dd7cc4
+  activity_labels_used: false
+  source_rows_with_id_and_smiles: 2854815
+  ordering: BLAKE2b-64 of '<selection_seed>:<ChEMBL ID>', ascending
+  selection_seed: 20260928
+  nested_prefix_sizes: [100000, 250000, 500000, 1000000, 2000000]
+  representation: Morgan radius 2, 2048 bits -> fixed landmark TruncatedSVD 96 dimensions
+  svd_landmark_size: 100000
+  execution_seeds: [0, 1, 2]
+  scorer_targets: [aa2ar, abl1, bace1, braf, cdk2, egfr, esr1, akt1, kit, pparg]
+  selected_partition_fraction: 0.10
+  reservoir_per_partition: 16
+  top_k: 1000
+  preprocessing_script: scripts/jbd_experiments/prepare_chembl36_features.py
+  scaling_script: scripts/jbd_experiments/run_chembl36_scalability.py
+  aggregation_script: scripts/jbd_experiments/aggregate_chembl36_controls.py
+
+representation_control:
+  library_size: 100000
+  representations: [Truncated-SVD-96, signed-hash-96]
+  scorer_targets: [aa2ar, akt1, cdk2]
+  seeds: [0, 1, 2]
+  script: scripts/jbd_experiments/run_chembl36_representation_control.py
+
+public_outputs:
+  - tables/jbd/same_rrf_matched_dude_all102.csv
+  - tables/jbd/same_rrf_matched_lit_all15.csv
+  - tables/jbd/budget_quality_dude20.csv
+  - tables/jbd/rrf_weight_lit_all15_corrected.csv
+  - tables/jbd/chembl36_scale_svd_all.csv
+  - tables/jbd/chembl36_representation_all.csv

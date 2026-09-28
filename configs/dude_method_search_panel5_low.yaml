@@ -1,0 +1,34 @@
+run_name: dude_method_search_panel5_low
+data_root: data/raw/dude/extracted
+output_dir: runs/dude_method_search_panel5_low
+table_dir: tables/dude_method_search_panel5_low
+targets:
+- aa2ar
+- adrb2
+- bace1
+- cdk2
+- egfr
+max_decoys: 50000
+n_partitions: 256
+n_components: 96
+initial_labeled: 256
+rounds: 6
+query_per_round: 128
+final_k:
+- 100
+- 500
+- 1000
+seeds:
+- 0
+methods:
+- boba_ucb
+- rabvs_budgeted_reliable
+- rabvs_budgeted_no_ucb
+- rabvs_budgeted_no_ucb_q90
+- rabvs_budgeted_no_ucb_no_density
+- rabvs_budgeted_decay_ucb
+- rabvs_budgeted_decay_no_density
+- rabvs_budgeted_elite_decay
+- rabvs_budgeted_late_exploit
+- rabvs_budgeted_clean_acq
+n_jobs: 5

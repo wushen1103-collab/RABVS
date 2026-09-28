@@ -1,0 +1,13 @@
+target,seed,method,rank,pool_index,mol_id,smiles,label,scaffold,risk_alert,mu,u_epi,u_conf,density_penalty,was_queried,queried_total,queried_hits
+ADRB2,0,boba_ucb,1,0,22412382,CN(c1ccc(\C=N\NC(CC#N)=O)cc1)c2ccccc2,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+ADRB2,0,rabvs_budgeted_reliable,1,0,22412382,CN(c1ccc(\C=N\NC(CC#N)=O)cc1)c2ccccc2,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+ESR1_ago,0,boba_ucb,1,0,144207138,CC(O[C@@H]1CC([C@]2(C)CC1)=CC[C@H]([C@@H]23)[C@H]4[C@](C(c5cnccc5)=CC4)(C)CC3)=O,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+ESR1_ago,0,rabvs_budgeted_reliable,1,0,144207138,CC(O[C@@H]1CC([C@]2(C)CC1)=CC[C@H]([C@@H]23)[C@H]4[C@](C(c5cnccc5)=CC4)(C)CC3)=O,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+FEN1,0,boba_ucb,1,0,852615,Oc1ccc(Nc2nc(c3c(N4CCCC4)n2)cccc3)cc1,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+FEN1,0,rabvs_budgeted_reliable,1,0,852615,Oc1ccc(Nc2nc(c3c(N4CCCC4)n2)cccc3)cc1,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+MAPK1,0,boba_ucb,1,0,843110,COC(c1noc(c2cc(OC)c(OC)cc2)c1)=O,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+MAPK1,0,rabvs_budgeted_reliable,1,0,843110,COC(c1noc(c2cc(OC)c(OC)cc2)c1)=O,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+PKM2,0,boba_ucb,1,0,842868,Fc1c(Cn2c(c3nn2)ncnc3n4cncc4)cccc1,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+PKM2,0,rabvs_budgeted_reliable,1,0,842868,Fc1c(Cn2c(c3nn2)ncnc3n4cncc4)cccc1,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+VDR,0,boba_ucb,1,0,29215339,[NH3+]C[C@@H](c1cc(O)c(O)cc1)O,1,0,0,1.0,0.0,0.0,0.0,0,0,0
+VDR,0,rabvs_budgeted_reliable,1,0,29215339,[NH3+]C[C@@H](c1cc(O)c(O)cc1)O,1,0,0,1.0,0.0,0.0,0.0,0,0,0

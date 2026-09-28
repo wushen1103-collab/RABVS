@@ -1,0 +1,118 @@
+dataset,target,split_or_pool,library_size,active_count,inactive_or_decoy_count,active_ratio,source_run,status
+LIT-PCBA AVE,ADRB2,"V split, max 50k inactives",50004,4,50000,7.999360051195904e-05,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,ALDH1,"V split, max 50k inactives",26640,1343,25297,0.0504129129129129,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,ESR1_ago,"V split, max 50k inactives",911,3,908,0.0032930845225027,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,ESR1_ant,"V split, max 50k inactives",819,25,794,0.0305250305250305,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,FEN1,"V split, max 50k inactives",50091,91,50000,0.0018166936176159,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,GBA,"V split, max 50k inactives",50041,41,50000,0.0008193281509162,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,IDH1,"V split, max 50k inactives",50009,9,50000,0.0001799676058309,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,KAT2A,"V split, max 50k inactives",50048,48,50000,0.0009590792838874,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,MAPK1,"V split, max 50k inactives",15327,77,15250,0.0050238141841195,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,MTORC1,"V split, max 50k inactives",8267,24,8243,0.002903108745615,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,OPRK1,"V split, max 50k inactives",50006,6,50000,0.0001199856017277,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,PKM2,"V split, max 50k inactives",50136,136,50000,0.0027126216690601,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,PPARG,"V split, max 50k inactives",867,6,861,0.0069204152249134,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,TP53,"V split, max 50k inactives",811,16,795,0.0197287299630086,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+LIT-PCBA AVE,VDR,"V split, max 50k inactives",50165,165,50000,0.0032891458187979,runs/exact_metrics_lit_all15/summary.csv,actual_screening_pool
+DUD-E,aa2ar,full extracted target pool,32032,482,31550,0.0150474525474525,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,abl1,full extracted target pool,10932,182,10750,0.0166483717526527,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ace,full extracted target pool,17182,282,16900,0.0164125247351879,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,aces,full extracted target pool,26703,453,26250,0.0169643860240422,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ada,full extracted target pool,5543,93,5450,0.0167779180948944,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ada17,full extracted target pool,36432,532,35900,0.0146025472112428,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,adrb1,full extracted target pool,16097,247,15850,0.0153444741256134,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,adrb2,full extracted target pool,15231,231,15000,0.0151664368721686,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,akt1,full extracted target pool,16743,293,16450,0.0174998506838678,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,akt2,full extracted target pool,7017,117,6900,0.0166737922188969,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,aldr,full extracted target pool,9159,159,9000,0.0173599737962659,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ampc,full extracted target pool,2898,48,2850,0.0165631469979296,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,andr,full extracted target pool,14619,269,14350,0.0184007114029687,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,aofb,full extracted target pool,7022,122,6900,0.017373967530618,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,bace1,full extracted target pool,18383,283,18100,0.0153946581080345,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,braf,full extracted target pool,10102,152,9950,0.0150465254405068,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,cah2,full extracted target pool,31664,492,31172,0.0155381505811015,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,casp3,full extracted target pool,10899,199,10700,0.0182585558308101,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,cdk2,full extracted target pool,28324,474,27850,0.0167349244456997,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,comt,full extracted target pool,3891,41,3850,0.0105371369827807,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,cp2c9,full extracted target pool,7570,120,7450,0.0158520475561426,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,cp3a4,full extracted target pool,11970,170,11800,0.0142021720969089,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,csf1r,full extracted target pool,12315,166,12149,0.013479496548924,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,cxcr4,full extracted target pool,3446,40,3406,0.0116076610562971,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,def,full extracted target pool,5802,102,5700,0.0175801447776628,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,dhi1,full extracted target pool,19680,330,19350,0.0167682926829268,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,dpp4,full extracted target pool,41482,533,40949,0.0128489465310255,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,drd3,full extracted target pool,34530,480,34050,0.0139009556907037,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,dyr,full extracted target pool,17431,231,17200,0.0132522517354139,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,egfr,full extracted target pool,35592,542,35050,0.0152281411553158,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,esr1,full extracted target pool,21068,383,20685,0.0181792291627112,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,esr2,full extracted target pool,20566,367,20199,0.0178449868715355,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fa10,full extracted target pool,28862,537,28325,0.0186057792252789,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fa7,full extracted target pool,6364,114,6250,0.0179132620993086,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fabp4,full extracted target pool,2797,47,2750,0.0168037182695745,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fak1,full extracted target pool,5450,100,5350,0.018348623853211,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fgfr1,full extracted target pool,8839,139,8700,0.0157257608326733,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fkb1a,full extracted target pool,5911,111,5800,0.0187785484689561,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fnta,full extracted target pool,50592,592,50000,0.0117014547754585,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,fpps,full extracted target pool,8935,85,8850,0.0095131505316172,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,gcr,full extracted target pool,15257,258,14999,0.0169102706954184,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,glcm,full extracted target pool,3854,54,3800,0.0140114167099117,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,gria2,full extracted target pool,12003,158,11845,0.0131633758227109,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,grik1,full extracted target pool,6651,101,6550,0.0151856863629529,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hdac2,full extracted target pool,10485,185,10300,0.0176442536957558,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hdac8,full extracted target pool,10620,170,10450,0.0160075329566855,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hivint,full extracted target pool,6750,100,6650,0.0148148148148148,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hivpr,full extracted target pool,36286,536,35750,0.0147715372319903,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hivrt,full extracted target pool,19229,338,18891,0.0175776171407769,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hmdh,full extracted target pool,8920,170,8750,0.0190582959641255,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hs90a,full extracted target pool,4938,88,4850,0.0178209801539084,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,hxk4,full extracted target pool,4792,92,4700,0.0191986644407345,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,igf1r,full extracted target pool,9448,148,9300,0.0156646909398814,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,inha,full extracted target pool,2343,43,2300,0.0183525394793,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ital,full extracted target pool,8638,138,8500,0.0159759203519333,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,jak2,full extracted target pool,6607,107,6500,0.0161949447555622,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,kif11,full extracted target pool,6966,116,6850,0.0166523112259546,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,kit,full extracted target pool,10616,166,10450,0.0156367746797287,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,kith,full extracted target pool,2907,57,2850,0.0196078431372549,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,kpcb,full extracted target pool,8835,135,8700,0.0152801358234295,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,lck,full extracted target pool,27820,420,27400,0.01509705248023,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,lkha4,full extracted target pool,9621,171,9450,0.0177736202057998,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mapk2,full extracted target pool,6251,101,6150,0.0161574148136298,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mcr,full extracted target pool,5244,94,5150,0.0179252479023646,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,met,full extracted target pool,11416,166,11250,0.014540995094604,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mk01,full extracted target pool,4629,79,4550,0.0170663210196586,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mk10,full extracted target pool,6704,104,6600,0.0155131264916467,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mk14,full extracted target pool,36428,578,35850,0.0158669155594597,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mmp13,full extracted target pool,37772,572,37200,0.0151434925341522,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,mp2k1,full extracted target pool,8271,121,8150,0.0146294281223552,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,nos1,full extracted target pool,8150,100,8050,0.0122699386503067,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,nram,full extracted target pool,6298,98,6200,0.0155604953953636,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pa2ga,full extracted target pool,5249,99,5150,0.0188607353781672,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,parp1,full extracted target pool,30558,508,30050,0.0166241246154853,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pde5a,full extracted target pool,27948,398,27550,0.0142407327894661,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pgh1,full extracted target pool,10995,195,10800,0.0177353342428376,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pgh2,full extracted target pool,23585,435,23150,0.0184439262242951,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,plk1,full extracted target pool,6907,107,6800,0.0154915303315477,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pnph,full extracted target pool,7053,103,6950,0.01460371473132,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ppara,full extracted target pool,19772,373,19399,0.0188650617034189,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ppard,full extracted target pool,12490,240,12250,0.0192153722978382,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pparg,full extracted target pool,25784,484,25300,0.0187713310580204,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,prgr,full extracted target pool,15943,293,15650,0.0183779715235526,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,ptn1,full extracted target pool,7380,130,7250,0.0176151761517615,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pur2,full extracted target pool,2750,50,2700,0.0181818181818181,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pygm,full extracted target pool,4027,77,3950,0.0191209336975415,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,pyrd,full extracted target pool,6561,111,6450,0.0169181527206218,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,reni,full extracted target pool,7062,104,6958,0.0147267063154913,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,rock1,full extracted target pool,6400,100,6300,0.015625,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,rxra,full extracted target pool,7081,131,6950,0.0185002118344866,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,sahh,full extracted target pool,3513,63,3450,0.0179333902647309,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,src,full extracted target pool,35024,524,34500,0.0149611694837825,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,tgfr1,full extracted target pool,8633,133,8500,0.0154060002316691,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,thb,full extracted target pool,7553,103,7450,0.0136369654441943,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,thrb,full extracted target pool,27465,461,27004,0.0167849990897505,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,try1,full extracted target pool,26429,449,25980,0.0169889136932914,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,tryb1,full extracted target pool,7798,148,7650,0.0189792254424211,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,tysy,full extracted target pool,6859,109,6750,0.0158915293774602,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,urok,full extracted target pool,10012,162,9850,0.0161805833000399,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,vgfr2,full extracted target pool,25358,409,24949,0.0161290322580645,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,wee1,full extracted target pool,6252,102,6150,0.0163147792706333,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
+DUD-E,xiap,full extracted target pool,5250,100,5150,0.019047619047619,runs/exact_metrics_dude_all102_fair/summary.csv,actual_screening_pool
